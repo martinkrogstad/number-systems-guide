@@ -1,0 +1,59 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="660" height="250"
+     viewBox="0 0 660 250">
+
+    <rect width="660" height="250" rx="12"
+          fill="#1e293b"/>
+
+    <text x="330" y="40"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="24"
+          font-weight="bold"
+          fill="#f1f5f9">
+        Linux File Permissions: chmod 755
+    </text>
+
+    <g font-family="Arial" text-anchor="middle">
+
+        <rect x="35" y="65" width="180" height="125"
+              rx="10" fill="#334155"/>
+
+        <text x="125" y="95" font-size="18"
+              fill="#cbd5e1">Owner</text>
+        <text x="125" y="135" font-size="32"
+              fill="#38bdf8">7</text>
+        <text x="125" y="165" font-size="21"
+              fill="#f1f5f9">rwx</text>
+
+        <rect x="240" y="65" width="180" height="125"
+              rx="10" fill="#334155"/>
+
+        <text x="330" y="95" font-size="18"
+              fill="#cbd5e1">Group</text>
+        <text x="330" y="135" font-size="32"
+              fill="#38bdf8">5</text>
+        <text x="330" y="165" font-size="21"
+              fill="#f1f5f9">r-x</text>
+
+        <rect x="445" y="65" width="180" height="125"
+              rx="10" fill="#334155"/>
+
+        <text x="535" y="95" font-size="18"
+              fill="#cbd5e1">Others</text>
+        <text x="535" y="135" font-size="32"
+              fill="#38bdf8">5</text>
+        <text x="535" y="165" font-size="21"
+              fill="#f1f5f9">r-x</text>
+
+    </g>
+
+    <text x="330" y="225"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="16"
+          fill="#cbd5e1">
+        Read = 4 | Write = 2 | Execute = 1
+    </text>
+</svg>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Systems Guide</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="hexadecimal.html">Hexadecimal</a>
+            <a href="octal.html">Octal</a>
+        </nav>
+    </header>
+    
+<main>
+
+    <section id="introduction">
+        <h1>Understanding Number Systems</h1>
+        <p>
+            Learn how hexadecimal and octal numbers are used
+            in computing, networking, and cybersecurity.
+        </p>
+    </section>
+
+<section id="number-systems">
+
+    <h2>What Are Number Systems?</h2>
+    <p>
+        Computers use different number systems to represent
+        and process information. Each number system has a
+        base, which determines how many different digits
+        it uses.
+    </p>
+
+    <h3>Common Number Systems</h3>
+    <ul>
+        <li>Binary (Base 2) - Uses digits 0 and 1.</li>
+        <li>Octal (Base 8) - Uses digits 0 to 7.</li>
+        <li>Decimal (Base 10) - Uses digits 0 to 9.</li>
+        <li>Hexadecimal (Base 16) - Uses digits 0 to 9 and A to F.</li>
+    </ul>
+
+</section>
+
+<section id="comparison">
+    <h2>Number System Comparison</h2>
+    <p>
+        The table below shows how the same decimal
+        value is represented in different number systems.
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Decimal</th>
+                <th scope="col">Binary</th>
+                <th scope="col">Octal</th>
+                <th scope="col">Hexadecimal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10</td>
+                <td>1010</td>
+                <td>12</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>1111</td>
+                <td>17</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>10000</td>
+                <td>20</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>255</td>
+                <td>11111111</td>
+                <td>377</td>
+                <td>FF</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+<section id="explore">
+    <h2>Explore Number Systems</h2>
+    <p>
+        Discover how these number systems are used
+        in real-world computing and cybersecurity.
+    </p>
+
+    <div class="card-container">
+        <article class="card">
+            <h3>Hexadecimal (Base 16)</h3>
+            <p>
+                Learn how hexadecimal is used in
+                memory addresses, MAC addresses,
+                IPv6, and web colours.
+            </p>
+            <a href="hexadecimal.html">Explore Hexadecimal</a>
+        </article>
+
+        <article class="card">
+            <h3>Octal (Base 8)</h3>
+            <p>
+                Discover how octal numbers are used
+                to manage file permissions in Linux.
+            </p>
+            <a href="octal.html">Explore Octal</a>
+        </article>
+    </div>
+</section>
+
+<section id="converter">
+    <h2>Number Base Converter</h2>
+
+    <p>
+        Enter a decimal number to convert it into
+        binary, octal, and hexadecimal.
+    </p>
+
+    <div class="converter-container">
+        <label for="decimal-input">Decimal Number:</label>
+
+        <input
+            type="number"
+            id="decimal-input"
+            min="0"
+            step="1"
+            placeholder="Enter a decimal number"
+        >
+
+        <button id="convert-button" type="button">
+            Convert
+        </button>
+
+        <div id="conversion-results">
+            <p>Binary: <span id="binary-result">-</span></p>
+            <p>Octal: <span id="octal-result">-</span></p>
+            <p>Hexadecimal: <span id="hex-result">-</span></p>
+        </div>
+    </div>
+</section>
+
+
+</main>
+
+<footer>
+    <p>
+        &copy; 2026 Number Systems Guide |
+        Educational Project – Noroff University College
+    </p>
+    <p>
+        Created by a Cyber Security student |
+        Contact: <a href="mailto:markro08305@stud.noroff.no">
+            markro08305@stud.noroff.no
+        </a>
+    </p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

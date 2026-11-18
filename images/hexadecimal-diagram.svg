@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="600" height="180"
+     viewBox="0 0 600 180">
+    <rect width="600" height="180" rx="12" fill="#1e293b"/>
+
+    <text x="300" y="40"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="22"
+          fill="#f1f5f9">
+        Hexadecimal to Binary
+    </text>
+
+    <text x="150" y="105"
+          text-anchor="middle"
+          font-family="monospace"
+          font-size="32"
+          fill="#38bdf8">
+        A5
+    </text>
+
+    <text x="300" y="105"
+          text-anchor="middle"
+          font-size="32"
+          fill="#f1f5f9">
+        →
+    </text>
+
+    <text x="450" y="105"
+          text-anchor="middle"
+          font-family="monospace"
+          font-size="28"
+          fill="#38bdf8">
+        1010 0101
+    </text>
+
+    <text x="300" y="150"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="16"
+          fill="#cbd5e1">
+        2 hexadecimal digits = 8 bits = 1 byte
+    </text>
+</svg>

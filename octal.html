@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octal Explained | Number Systems Guide</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="hexadecimal.html">Hexadecimal</a>
+            <a href="octal.html">Octal</a>
+        </nav>
+    </header>
+    
+<main>
+
+
+<section id="introduction">
+    <h1>Understanding Octal (Base 8)</h1>
+
+    <p>
+        Octal is a base-8 number system that uses
+        eight digits, from 0 to 7. It provides a
+        compact way to represent binary numbers
+        and is particularly useful when working
+        with file permissions in Linux.
+    </p>
+</section>
+
+
+    
+
+<section id="octal-basics">
+    <h2>How Does Octal Work?</h2>
+
+    <p>
+        Octal is a positional number system with a
+        base of 8. It uses eight different digits,
+        from 0 to 7.
+    </p>
+
+    <p>
+        Each position represents a power of 8,
+        starting from the right with 8^0.
+    </p>
+
+    <h3>Octal Digits</h3>
+
+    <ul>
+        <li>0, 1, 2, 3, 4, 5, 6, 7</li>
+    </ul>
+
+    <p>
+        Unlike decimal, octal does not use the
+        digits 8 or 9. After 7, the next number
+        is written as 10 in octal.
+    </p>
+</section>
+
+
+<section id="octal-conversion">
+    <h2>Converting Octal to Decimal</h2>
+
+    <p>
+        Each position in an octal number represents
+        a power of 8, starting from the right with 8^0.
+    </p>
+
+    <h3>Example: Convert 31 to Decimal</h3>
+
+    <ol>
+        <li>Identify the digits: 3 and 1.</li>
+        <li>Multiply 3 by 8^1 = 24.</li>
+        <li>Multiply 1 by 8^0 = 1.</li>
+        <li>Add the results: 24 + 1 = 25.</li>
+    </ol>
+
+    <p>
+        Therefore, octal 31 equals decimal 25.
+    </p>
+</section>
+
+
+
+<section id="octal-binary">
+    <h2>Octal and Binary</h2>
+
+    <p>
+        Each octal digit represents exactly three
+        binary bits. This makes octal a compact
+        way to represent binary values.
+    </p>
+
+    <h3>Example: 75 in Binary</h3>
+
+    <ul>
+        <li>7 = 111 in binary.</li>
+        <li>5 = 101 in binary.</li>
+        <li>75 in octal = 111101 in binary.</li>
+        <li>75 in octal = 61 in decimal.</li>
+    </ul>
+
+    <p>
+        Octal notation is especially useful in
+        Unix and Linux file permissions.
+    </p>
+</section>
+
+
+<section id="linux-permissions">
+    <h2>Octal in Linux File Permissions</h2>
+
+    <p>
+        Linux uses octal notation to represent
+        file permissions for three categories:
+        owner, group, and others.
+    </p>
+
+    <h3>Permission Values</h3>
+
+    <ul>
+        <li>Read (r) = 4</li>
+        <li>Write (w) = 2</li>
+        <li>Execute (x) = 1</li>
+    </ul>
+
+    <h3>Example: chmod 755</h3>
+
+    <p>
+        The command chmod 755 filename sets
+        the following permissions:
+    </p>
+
+    <ul>
+        <li>Owner (7): Read, Write, Execute (4+2+1)</li>
+        <li>Group (5): Read, Execute (4+1)</li>
+        <li>Others (5): Read, Execute (4+1)</li>
+    </ul>
+
+    <p>
+        This permission setting is commonly used
+        for executable files and directories.
+    </p>
+
+<h3>Common Linux Permission Values</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Octal</th>
+            <th scope="col">Binary</th>
+            <th scope="col">Permissions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>7</td>
+            <td>111</td>
+            <td>rwx (Read, Write, Execute)</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>110</td>
+            <td>rw- (Read, Write)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>101</td>
+            <td>r-x (Read, Execute)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>100</td>
+            <td>r-- (Read)</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>000</td>
+            <td>--- (No permissions)</td>
+        </tr>
+    </tbody>
+</table>
+
+<figure class="diagram-figure">
+    <img
+        src="images/linux-permissions.svg"
+        alt="Linux chmod 755 permissions showing owner rwx, group r-x, and others r-x"
+        width="660"
+        height="250"
+    >
+    <figcaption>
+        Figure: Linux file permissions represented using octal 755.
+    </figcaption>
+</figure>
+
+</section>
+
+
+</main>
+
+<footer>
+    <p>
+        &copy; 2026 Number Systems Guide |
+        Educational Project – Noroff University College
+    </p>
+    <p>
+        Created by a Cyber Security student |
+        Contact: <a href="mailto:markro08305@stud.noroff.no">
+            markro08305@stud.noroff.no
+        </a>
+    </p>
+</footer>
+
+</body>
+
+</html>

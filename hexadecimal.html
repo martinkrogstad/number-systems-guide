@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexadecimal Explained | Number Systems Guide</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="hexadecimal.html">Hexadecimal</a>
+            <a href="octal.html">Octal</a>
+        </nav>
+    </header>
+    
+<main>
+
+<section id="introduction">
+    <h1>Understanding Hexadecimal (Base 16)</h1>
+    <p>
+        Hexadecimal is a base-16 number system widely used
+        in computing, networking, and cybersecurity.
+        It provides a compact way to represent binary
+        data using the digits 0–9 and letters A–F.
+    </p>
+</section>
+
+    
+<section id="hex-basics">
+    <h2>How Does Hexadecimal Work?</h2>
+
+    <p>
+        Hexadecimal is a positional number system with a
+        base of 16. Unlike decimal, which uses ten digits,
+        hexadecimal uses sixteen symbols:
+        0-9 and A-F.
+    </p>
+
+    <h3>Hexadecimal Digits</h3>
+    <p>
+        The letters A through F represent decimal values
+        from 10 to 15.
+    </p>
+
+    <ul>
+        <li>A = 10</li>
+        <li>B = 11</li>
+        <li>C = 12</li>
+        <li>D = 13</li>
+        <li>E = 14</li>
+        <li>F = 15</li>
+    </ul>
+</section>
+
+<section id="hex-conversion">
+    <h2>Converting Hexadecimal to Decimal</h2>
+
+    <p>
+        Each position in a hexadecimal number represents
+        a power of 16, starting from the right with 16^0.
+    </p>
+
+    <h3>Example: Convert 2F to Decimal</h3>
+
+    <ol>
+        <li>Identify the digits: 2 and F (15).</li>
+        <li>Multiply 2 by 16^1 = 32.</li>
+        <li>Multiply 15 by 16^0 = 15.</li>
+        <li>Add the results: 32 + 15 = 47.</li>
+    </ol>
+
+    <p>
+        Therefore, hexadecimal 2F equals decimal 47.
+    </p>
+</section>
+
+<section id="hex-binary">
+    <h2>Hexadecimal and Binary</h2>
+
+    <p>
+        Each hexadecimal digit represents exactly four
+        binary bits. This makes hexadecimal a compact
+        and readable way to represent binary data.
+    </p>
+
+    <h3>Example: FF in Binary</h3>
+
+    <ul>
+        <li>F = 1111 in binary.</li>
+        <li>FF = 1111 1111 in binary.</li>
+        <li>Eight bits represent one byte.</li>
+        <li>FF = 255 in decimal.</li>
+    </ul>
+
+    <p>
+        Hexadecimal is commonly used to represent bytes,
+        memory addresses, and network addresses.
+    </p>
+
+
+<figure class="diagram-figure">
+    <img
+        src="images/hexadecimal-diagram.svg"
+        alt="Hexadecimal A5 converted to binary 1010 0101"
+        width="600"
+        height="180"
+    >
+    <figcaption>
+        Figure: Hexadecimal A5 represented as eight binary bits.
+    </figcaption>
+</figure>
+
+</section>
+
+<section id="hex-applications">
+    <h2>Real-World Applications of Hexadecimal</h2>
+
+    <p>
+        Hexadecimal is widely used in computing because
+        it provides a compact representation of binary data.
+    </p>
+
+    <h3>Common Applications</h3>
+
+    <ul>
+        <li>
+            <strong>MAC Addresses:</strong>
+            Network interfaces use hexadecimal notation
+            for addresses such as 00:1A:2B:3C:4D:5E.
+        </li>
+
+        <li>
+            <strong>IPv6 Addresses:</strong>
+            IPv6 uses hexadecimal notation, for example
+            2001:db8::1.
+        </li>
+
+        <li>
+            <strong>Memory Addresses:</strong>
+            Hexadecimal is commonly used to display
+            memory locations, such as 0x7FFF.
+        </li>
+
+        <li>
+            <strong>Web Colours:</strong>
+            CSS uses hexadecimal colour codes,
+            such as #38bdf8.
+        </li>
+
+        <li>
+            <strong>Cybersecurity:</strong>
+            Hexadecimal is used when analysing binary
+            files, network packets, and memory dumps.
+        </li>
+    </ul>
+</section>
+
+</main>
+
+<footer>
+    <p>
+        &copy; 2026 Number Systems Guide |
+        Educational Project – Noroff University College
+    </p>
+    <p>
+        Created by a Cyber Security student |
+        Contact: <a href="mailto:markro08305@stud.noroff.no">
+            markro08305@stud.noroff.no
+        </a>
+    </p>
+</footer>
+
+</body>
+
+</html>
